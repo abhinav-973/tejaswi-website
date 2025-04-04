@@ -28,7 +28,7 @@
             border-radius: 15px;
             margin: 20px;
         }
-        .members {
+        .members, .founder {
             text-align: center;
             padding: 40px 0;
         }
@@ -38,6 +38,7 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             transition: transform 0.3s ease-in-out;
+            margin-bottom: 30px;
         }
         .member-card:hover {
             transform: translateY(-5px);
@@ -67,6 +68,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#founder">Founder</a></li>
                     <li class="nav-item"><a class="nav-link" href="#members">Members</a></li>
                 </ul>
             </div>
@@ -78,27 +80,42 @@
         <p>A group of tejaswi peoples of GGPS</p>
     </header>
 
-    <section id="members" class="members container">
-        <h2>Our Members</h2>
-        <div class="row">
+    <section id="founder" class="founder container">
+        <h2>Group Founder</h2>
+        <div class="row justify-content-center">
             <div class="col-md-4 text-center member-card">
-                <img src="image.png" alt="Member 1">
+                <img src="image.png" alt="Abhishek Kumar">
                 <h5>Abhishek Kumar</h5>
-                <p>Randi of group</p>
-            </div>
-            <div class="col-md-4 text-center member-card">
-                <img src="image copy.png" alt="Member 2">
-                <h5>Abhinav Singh</h5>
-                <p>Founder of group</p>
-            </div>
-            <div class="col-md-4 text-center member-card">
-                <img src="image copy 2.png" alt="Member 3">
-                <h5>Ujjwal Kumar Singh</h5>
-                <p>Co-Founder of group</p>
+                <p>Founder of Tejaswi Group</p>
+                <p><strong>Email:</strong> textabhi11@gmail.com</p>
             </div>
         </div>
     </section>
 
+    <section id="members" class="members container">
+        <h2>Other Members</h2>
+        <div class="row">
+            <div class="col-md-4 text-center member-card">
+                <img src="image-copy.png"alt="Abhinav Singh">
+                <h5>Abhinav Singh</h5>
+                <p>Website Manager</p>
+                <p><strong>Email:</strong>vabhinav898@gmail.com</p>
+            </div>
+            <div class="col-md-4 text-center member-card">
+                <img src="image-copy 2.png"alt="Ujjwal Kumar Singh">
+                <h5>Ujjwal Kumar Singh</h5>
+                <p>Co-Founder of Group</p>
+                <p><strong>Email:</strong> ujjwalkumarsingh@gmail.com</p>
+            </div>
+            <div class="col-md-4 text-center member-card">
+                <img src="image-copy-3.png"alt="Jayant Dev">
+                <h5>Jayant Dev</h5>
+                <p>Group member</p>
+                <p><strong>Email:</strong> jayantdev@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    
     <footer>
         <p>&copy; 2024 Tejaswi Group. All rights reserved.</p>
     </footer>
@@ -106,4 +123,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-separate the css file with the html file
