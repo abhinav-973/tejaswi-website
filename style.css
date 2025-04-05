@@ -1,0 +1,57 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+
+.navbar-brand, .nav-link {
+    color: #333 !important;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(to right, #ff5733, #ff914d);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.members {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.member-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+}
+
+.member-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
